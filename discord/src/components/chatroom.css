@@ -1,0 +1,122 @@
+.chatroom-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    height: 100%;
+    width: 65%;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 5%;
+    border: 2px solid black;
+    background-color: #36393e;
+}
+
+.body-container {
+    display: flex;
+    width: 100%;
+    height: 95%;
+    border: 2px solid black;
+    background-color: #36393e;
+    flex-direction: column;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+    height: 90%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatbar-container {
+    display: flex;
+    width: 95%;
+    height: 60%;
+    background-color: #424549;
+    border-radius: 10px;
+}
+
+.icon-container-one {
+    display: flex;
+    height: 100%;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container-two {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+input {
+    all: unset;
+    width: 75%;
+    caret-color: rgb(113, 113, 113);
+    color: rgb(214, 214, 214);
+}
+input::placeholder {
+    margin: 50px;
+}
+
+.add-icon-messagebar,
+.emoji-icon-messagebar {
+    color: #cfcfcf;
+    font-size: 22px;
+    cursor: pointer;
+}
+.emoji-icon-messagebar:hover,
+.add-icon-messagebar:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+
+.emoji-icon-messagebar {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .emoji-icon-messagebar:hover, .emoji-icon-messagebar:focus, .emoji-icon-messagebar:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .add-icon-messagebar  {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.add-icon-messagebar:hover,   .add-icon-messagebar :focus,   .add-icon-messagebar:active {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
