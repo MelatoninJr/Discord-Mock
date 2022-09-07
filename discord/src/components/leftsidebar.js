@@ -4,7 +4,7 @@ import Cloud from './assets/cloud.JPG'
 import DiscordHome from './assets/discordhome.png'
 import Odin from './assets/odindiscord.png'
 import Jpeg from './assets/jpeg.png'
-import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill, RiAddFill, RiCompass3Fill, RiDiscordFill, RiHashtag, RiCheckboxMultipleFill, RiPlantFill, RiPlantLine } from "react-icons/ri"
+import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill, RiAddFill, RiCompass3Fill, RiDiscordFill, RiHashtag, RiCheckboxMultipleFill, RiPlantFill, RiPlantLine, RiQuestionAnswerFill, RiVolumeUpFill } from "react-icons/ri"
 
 const LeftSideBar = () => {
     return (
@@ -74,6 +74,41 @@ const LeftSideBar = () => {
                             <div className="lsb-channel-innercontainer">
                                 <RiHashtag className="lsb-body-icon" />
                                 <div className="lsb-body-title">roles</div>
+                            </div>
+                            
+                            </div>
+                            
+                        </div>
+                        <div className="channel-segment-container">
+                        <div className="channel-inner-container-one">
+                            <RiArrowDropDownLine className='channel-dropdown-icon'/>
+                            <div className="channel-title-text">The Odin Project</div>
+                            
+                        </div>      
+                            <div className="channel-inner-container-two">
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">general-chat</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">offtopic-chat</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiQuestionAnswerFill className="lsb-body-icon" />
+                                <div className="lsb-body-title">suggestions</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">contributions</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiVolumeUpFill className="lsb-body-icon" />
+                                <div className="lsb-body-title">voice-chat</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiVolumeUpFill className="lsb-body-icon" />
+                                <div className="lsb-body-title">studying</div>
                             </div>
                             
                             </div>
