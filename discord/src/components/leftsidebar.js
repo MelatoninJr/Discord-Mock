@@ -2,7 +2,10 @@ import React from "react";
 import './leftsidebar.css'
 import Cloud from './assets/cloud.JPG'
 import DiscordHome from './assets/discordhome.png'
-import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill } from "react-icons/ri"
+import Odin from './assets/odindiscord.png'
+import Jpeg from './assets/jpeg.png'
+import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill, RiAddFill, RiCompass3Fill, RiDiscordFill, RiHashtag, RiCheckboxMultipleFill, RiPlantFill, RiPlantLine } from "react-icons/ri"
+
 const LeftSideBar = () => {
     return (
         <div className="leftsidebar-container">
@@ -16,30 +19,18 @@ const LeftSideBar = () => {
             <div className="column-container-two">
                 <div className="ct-one">
                     <div className="ct-one-home">
-                        <div className="server-icon"></div>
+                        <div className="server-icon" id='home-server'><RiDiscordFill /></div>
                         <div className="server-border"></div>
 
                     </div>
                     <div className="ct-one-servers">
+                        <div className="server-icon"><img src={Odin} className='server-image'></img></div>
+                        <div className="server-icon"><img src={Jpeg} className='server-image'></img></div>
                         <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
-                        <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
+                        <div className="server-icon" id='add-server'><RiAddFill /></div>
+                        <div className="server-icon" id='add-server'><RiCompass3Fill id='compass-icon'/></div>
+
+
 
 
                     </div>
@@ -52,7 +43,41 @@ const LeftSideBar = () => {
                                 <div className="lsb-body-title">Home</div>
                             </div>
                             <div className="lsb-home-border"></div>
-
+                        </div>
+                        <div className="channel-segment-container">
+                        <div className="channel-inner-container-one">
+                            <RiArrowDropDownLine className='channel-dropdown-icon'/>
+                            <div className="channel-title-text">Initial Content</div>
+                            
+                        </div>      
+                            <div className="channel-inner-container-two">
+                            <div className="lsb-channel-innercontainer">
+                                <RiPlantLine className="lsb-body-icon" />
+                                <div className="lsb-body-title">announcements</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">welcome</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">introduction</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiCheckboxMultipleFill className="lsb-body-icon" />
+                                <div className="lsb-body-title">rules</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">faq</div>
+                            </div>
+                            <div className="lsb-channel-innercontainer">
+                                <RiHashtag className="lsb-body-icon" />
+                                <div className="lsb-body-title">roles</div>
+                            </div>
+                            
+                            </div>
+                            
                         </div>
                     </div>
                     <div className="ct-footer">

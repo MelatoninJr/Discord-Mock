@@ -80,6 +80,28 @@
 }
 .lsb-home-innercontainer:hover {
     background-color: #424549;
+    
+
+}
+.lsb-home-innercontainer:hover > * {
+    color: #dbdcdd;
+
+}
+
+.lsb-channel-innercontainer {
+    padding: 5%;
+    height: 15%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.lsb-channel-innercontainer:hover {
+    background-color: #424549;
 
 }
 .lsb-body-icon {
@@ -89,6 +111,7 @@
 .lsb-body-title {
     color: #96989e;
     font-size: 14px;
+    font-weight: bolder;
 }
 .lsb-home-border {
     height: 1%;
@@ -220,11 +243,11 @@
 }
 
 .server-icon {
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     border-radius: 50%;
     transition: 0.4s;
-    flex-shrink: 0;
+    flex-shrink: 1;
     max-height: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -297,3 +320,98 @@
     color: white;
   }
 
+#add-server {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 22px;
+    background-color: #282b30;
+    align-items: center;    
+    
+}
+
+#add-server:hover {
+    background-color: #7da565;
+    color: white;
+}
+
+#home-server {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    background-color: #282b30;
+    align-items: center;   
+
+}
+
+#home-server:hover {
+    background-color: #738ADB;
+
+}
+
+#compass-icon {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  #compass-icon:hover,   #compass-icon:focus,   #compass-icon:active {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+.channel-segment-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 30%;
+    width: 100%;
+    gap: 3%;
+
+}
+
+.channel-inner-container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+.channel-inner-container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    width: 100%;
+
+}
+.channel-title-text:hover {
+    color: #dbdcdd
+}
+.lsb-channel-innercontainer:hover > * {
+    color: #dbdcdd;
+}
+
+.channel-dropdown-icon {
+    color: #96989e;
+    min-height: 40%;
+
+}
+
+.channel-title-text {
+    color: #96989e;
+    font-size: 12px;
+    font-weight: bolder;
+}

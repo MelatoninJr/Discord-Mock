@@ -12,6 +12,8 @@
     height: 5%;
     border: 2px solid black;
     background-color: #36393e;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-container {
@@ -119,4 +121,38 @@ input::placeholder {
 .add-icon-messagebar:hover,   .add-icon-messagebar :focus,   .add-icon-messagebar:active {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
+}
+
+.cr-inner-header-one {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1%;
+    gap: 2%
+}
+
+.cr-inner-header-two {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.emoji-icon-messagebar-two {
+    color: #96989e;
+    font-size: 26px;
+    cursor: default;
+    
+}
+
+.cr-inner-channel {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: default;
+
+
 }

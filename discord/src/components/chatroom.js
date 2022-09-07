@@ -1,12 +1,23 @@
 import React from "react";
 import './chatroom.css'
-import { RiAddCircleFill, RiEmotionLaughFill, RiGiftFill, RiFileGifFill, RiFile3Fill } from 'react-icons/ri'
+import { RiAddCircleFill, RiEmotionLaughFill, RiGiftFill, RiFileGifFill, RiFile3Fill, RiHashtag, RiNotification2Fill, RiPushpin2Fill, RiUser3Fill } from 'react-icons/ri'
 
 const Chatroom = () => {
 
     return (
         <div className="chatroom-container">
-            <div className="header-container"></div>
+            <div className="header-container">
+                <div className="cr-inner-header-one">
+                    <RiHashtag className="emoji-icon-messagebar-two"/>
+                    <div className="cr-inner-channel">General-Chat</div>
+                </div>
+                <div className="cr-inner-header-two">
+                    <RiHashtag className="emoji-icon-messagebar"/>
+                    <RiNotification2Fill className="emoji-icon-messagebar"/> 
+                    <RiPushpin2Fill className="emoji-icon-messagebar"/>
+                    <RiUser3Fill className="emoji-icon-messagebar"/>
+                </div>
+            </div>
             <div className="body-container">
                 <div className="chat-container"></div>
                 <div className="footer-container">
