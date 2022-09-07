@@ -3,15 +3,14 @@
     flex-direction: column;
     height: 100%;
     width: 20%;
-    border: 2px solid blue;
 }
 
 .column-container-one {
     display: flex;
     width: 100%;
     height: 5%;
-    border: 2px solid black;
     background-color: #282b30;
+    border-bottom: 1px solid black;
 }
 .header-box-one {
     width: 25%;
@@ -27,7 +26,6 @@
     display: flex;
     width: 100%;
     height: 95%;
-    border: 2px solid black;
 }
 
 .ct-one {
@@ -35,7 +33,6 @@
     flex-direction: column;
     height: 100%;
     width: 25%;
-    border: 2px solid purple;
     background-color: #1e2124;
 }
 
@@ -44,7 +41,6 @@
     flex-direction: column;
     height: 100%;
     width: 75%;
-    border: 2px solid purple;
     background-color: #282b30;
     justify-content: space-between;
 }
@@ -54,7 +50,6 @@
     flex-direction: column;
     width: 100%;
     height: 93%;
-    border: 2px solid pink;
 
 }
 
@@ -65,7 +60,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid red;
 }
 
 .lsb-home-innercontainer {
