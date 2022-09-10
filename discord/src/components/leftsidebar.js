@@ -139,7 +139,7 @@ const LeftSideBar = (props) => {
                     <div className="ct-footer">
                         <div className="lsb-footer-one">
                             <div className="lsb-footer-pfp">
-                                <img src={Cloud} className='server-image' id='pfp'></img>
+                                {user?.displayName ? <img src={user.photoURL} className='server-image' id='pfp'></img> : "" }
                             </div>
                             <div className="lsb-footer-name">
                                 <div className="lsb-footer-username">{user?.displayName ? user.displayName: "" }</div>

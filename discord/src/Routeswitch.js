@@ -16,7 +16,7 @@ const RouteSwitch = () => {
 
     <div>
     <AuthContextProvider>
-        <HashRouter>
+        <HashRouter baseline='/'>
         <Routes>
             <Route path="/" element={<SignIn />} />
             <Route path="/d" element={<App  />} />
