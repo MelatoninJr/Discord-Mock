@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import App from "./App";
 import SignIn from "./components/signinpage";
 import { initializeApp } from "firebase/app";
@@ -16,12 +16,12 @@ const RouteSwitch = () => {
 
     <div>
     <AuthContextProvider>
-        <BrowserRouter>
+        <HashRouter>
         <Routes>
             <Route path="/" element={<SignIn />} />
             <Route path="/d" element={<App  />} />
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </AuthContextProvider>
 
     </div>
