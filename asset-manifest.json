@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/Discord-Mock/static/css/main.5e32b1a5.css",
-    "main.js": "/Discord-Mock/static/js/main.68866bda.js",
-    "static/media/personfour.png": "/Discord-Mock/static/media/personfour.5330a45b8d4609a9299f.png",
-    "static/media/cat.png": "/Discord-Mock/static/media/cat.677d02803e0feb79b80f.png",
-    "static/media/drawpersontwo.png": "/Discord-Mock/static/media/drawpersontwo.fae5641224657c23287c.png",
-    "static/media/drawpersonone.png": "/Discord-Mock/static/media/drawpersonone.663f2a44ca6d3ce3fede.png",
-    "static/media/person.png": "/Discord-Mock/static/media/person.19f0a805a2509ccbd38f.png",
-    "static/media/frog.png": "/Discord-Mock/static/media/frog.1185e3ad64234312eae2.png",
-    "static/media/crab.png": "/Discord-Mock/static/media/crab.e5feab79df1d531045b9.png",
-    "static/media/3dpersontwo.png": "/Discord-Mock/static/media/3dpersontwo.6d4c6de598ffb6e94f43.png",
-    "static/media/idle.png": "/Discord-Mock/static/media/idle.95020667dfb82d0495b3.png",
-    "static/media/dnd.png": "/Discord-Mock/static/media/dnd.3412610811d5729402ef.png",
-    "static/media/3dpersonone.png": "/Discord-Mock/static/media/3dpersonone.1c2ffb34c0ac4ad2baf6.png",
-    "static/media/online.png": "/Discord-Mock/static/media/online.bcd77116f928666e6720.png",
-    "static/media/cake.png": "/Discord-Mock/static/media/cake.4e8d007b58b2810bf669.png",
-    "static/media/cloud.JPG": "/Discord-Mock/static/media/cloud.7b299fc98634fb12237f.JPG",
-    "static/media/jpeg.png": "/Discord-Mock/static/media/jpeg.19b5ce6989e0b96a93f6.png",
-    "index.html": "/Discord-Mock/index.html",
-    "main.5e32b1a5.css.map": "/Discord-Mock/static/css/main.5e32b1a5.css.map",
-    "main.68866bda.js.map": "/Discord-Mock/static/js/main.68866bda.js.map"
+    "main.css": "/Discord-Mock]/static/css/main.ddfd3967.css",
+    "main.js": "/Discord-Mock]/static/js/main.13a39e07.js",
+    "static/media/personfour.png": "/Discord-Mock]/static/media/personfour.5330a45b8d4609a9299f.png",
+    "static/media/cat.png": "/Discord-Mock]/static/media/cat.677d02803e0feb79b80f.png",
+    "static/media/drawpersontwo.png": "/Discord-Mock]/static/media/drawpersontwo.fae5641224657c23287c.png",
+    "static/media/drawpersonone.png": "/Discord-Mock]/static/media/drawpersonone.663f2a44ca6d3ce3fede.png",
+    "static/media/person.png": "/Discord-Mock]/static/media/person.19f0a805a2509ccbd38f.png",
+    "static/media/frog.png": "/Discord-Mock]/static/media/frog.1185e3ad64234312eae2.png",
+    "static/media/crab.png": "/Discord-Mock]/static/media/crab.e5feab79df1d531045b9.png",
+    "static/media/3dpersontwo.png": "/Discord-Mock]/static/media/3dpersontwo.6d4c6de598ffb6e94f43.png",
+    "static/media/idle.png": "/Discord-Mock]/static/media/idle.95020667dfb82d0495b3.png",
+    "static/media/dnd.png": "/Discord-Mock]/static/media/dnd.3412610811d5729402ef.png",
+    "static/media/3dpersonone.png": "/Discord-Mock]/static/media/3dpersonone.1c2ffb34c0ac4ad2baf6.png",
+    "static/media/online.png": "/Discord-Mock]/static/media/online.bcd77116f928666e6720.png",
+    "static/media/cake.png": "/Discord-Mock]/static/media/cake.4e8d007b58b2810bf669.png",
+    "static/media/cloud.JPG": "/Discord-Mock]/static/media/cloud.7b299fc98634fb12237f.JPG",
+    "static/media/discord.svg": "/Discord-Mock]/static/media/discord.fb6aa3608d1dda7ea0c5622beba7d1a3.svg",
+    "static/media/jpeg.png": "/Discord-Mock]/static/media/jpeg.19b5ce6989e0b96a93f6.png",
+    "index.html": "/Discord-Mock]/index.html",
+    "main.ddfd3967.css.map": "/Discord-Mock]/static/css/main.ddfd3967.css.map",
+    "main.13a39e07.js.map": "/Discord-Mock]/static/js/main.13a39e07.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e32b1a5.css",
-    "static/js/main.68866bda.js"
+    "static/css/main.ddfd3967.css",
+    "static/js/main.13a39e07.js"
   ]
 }
