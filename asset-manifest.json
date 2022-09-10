@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Discord-Mock]/static/css/main.ddfd3967.css",
-    "main.js": "/Discord-Mock]/static/js/main.a019bc82.js",
+    "main.js": "/Discord-Mock]/static/js/main.a2daa1bc.js",
     "static/media/personfour.png": "/Discord-Mock]/static/media/personfour.5330a45b8d4609a9299f.png",
     "static/media/cat.png": "/Discord-Mock]/static/media/cat.677d02803e0feb79b80f.png",
     "static/media/drawpersontwo.png": "/Discord-Mock]/static/media/drawpersontwo.fae5641224657c23287c.png",
@@ -20,10 +20,10 @@
     "static/media/jpeg.png": "/Discord-Mock]/static/media/jpeg.19b5ce6989e0b96a93f6.png",
     "index.html": "/Discord-Mock]/index.html",
     "main.ddfd3967.css.map": "/Discord-Mock]/static/css/main.ddfd3967.css.map",
-    "main.a019bc82.js.map": "/Discord-Mock]/static/js/main.a019bc82.js.map"
+    "main.a2daa1bc.js.map": "/Discord-Mock]/static/js/main.a2daa1bc.js.map"
   },
   "entrypoints": [
     "static/css/main.ddfd3967.css",
-    "static/js/main.a019bc82.js"
+    "static/js/main.a2daa1bc.js"
   ]
 }
