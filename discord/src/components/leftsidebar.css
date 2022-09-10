@@ -13,6 +13,10 @@
     border-bottom: 1px solid black;
 }
 .header-box-one {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1%;
+    align-items: center;
     width: 25%;
     height: 100%;
 }
@@ -137,6 +141,7 @@
     justify-content: center;
     border-radius: 50%;
     overflow: hidden;
+
 }
 #pfp {
     height: 70%;
@@ -151,15 +156,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     color: white;
     gap: 5%;
+
     
 }
 .lsb-footer-username {
     font-size: 12px;
     font-weight: bolder;
     cursor: pointer;
+
 }
 
 .lsb-footer-id {
@@ -167,6 +174,7 @@
     color: rgb(214, 214, 214);
     font-size: 12px;
     cursor: pointer;
+
 }
 
 .lsb-footer-two {
@@ -177,9 +185,7 @@
     align-items: center;
     gap: 10%;
 }
-.lsb-footer-two:hover {
-    background-color: #424549;
-}
+
 
 .lsb-footer-icon {
 
@@ -408,4 +414,18 @@
     color: #96989e;
     font-size: 12px;
     font-weight: bolder;
+}
+
+.signout-button {
+    all: unset;
+    color: white;
+}
+
+.logout-container {
+    font-weight: bolder;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
 }

@@ -4,13 +4,33 @@ import Cloud from './assets/cloud.JPG'
 import DiscordHome from './assets/discordhome.png'
 import Odin from './assets/odindiscord.png'
 import Jpeg from './assets/jpeg.png'
-import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill, RiAddFill, RiCompass3Fill, RiDiscordFill, RiHashtag, RiCheckboxMultipleFill, RiPlantFill, RiPlantLine, RiQuestionAnswerFill, RiVolumeUpFill } from "react-icons/ri"
+import { RiArrowDropDownLine, RiMicFill, RiHeadphoneFill, RiSettings5Fill, RiHome5Fill, RiAddFill, RiCompass3Fill, RiDiscordFill, RiHashtag, RiCheckboxMultipleFill, RiPlantFill, RiPlantLine, RiQuestionAnswerFill, RiVolumeUpFill, RiLogoutBoxFill } from "react-icons/ri"
+import {UserAuth} from '../context/AuthContext'
+import { Navigate } from 'react-router-dom'
+const LeftSideBar = (props) => {
+    const {user, logOut} = UserAuth()
+    const handleSignOut = async () => {
+        try {
+            await logOut()
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
-const LeftSideBar = () => {
+    //console.log(user)
+    /*
+    <div className="logout-container">
+    {user?.displayName ?  <div className="lsb-body-icon" ><RiLogoutBoxFill onClick={handleSignOut} /></div> : <div></div>}
+    LogOut
+</div>*/
+
     return (
         <div className="leftsidebar-container">
             <div className="column-container-one">
-                <div className="header-box-one"></div>
+                <div className="header-box-one">
+
+                    
+                </div>
                 <div className="header-box-two">
                     <div className="hbt-title">The Odin Project</div>
                     <div className="hbt-icon"><RiArrowDropDownLine className='lsb-dropdown' /></div>
@@ -29,6 +49,7 @@ const LeftSideBar = () => {
                         <div className="server-icon"><img src={Cloud} className='server-image'></img></div>
                         <div className="server-icon" id='add-server'><RiAddFill /></div>
                         <div className="server-icon" id='add-server'><RiCompass3Fill id='compass-icon'/></div>
+                        <div className="server-icon" id='add-server'onClick={handleSignOut} ><RiLogoutBoxFill  /></div>
 
 
 
@@ -121,7 +142,7 @@ const LeftSideBar = () => {
                                 <img src={Cloud} className='server-image' id='pfp'></img>
                             </div>
                             <div className="lsb-footer-name">
-                                <div className="lsb-footer-username">MelatoninJr</div>
+                                <div className="lsb-footer-username">{user?.displayName ? user.displayName: "" }</div>
                                 <div className="lsb-footer-id">#9438</div>
 
                             </div>
